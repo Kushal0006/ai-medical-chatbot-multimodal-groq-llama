@@ -23,7 +23,7 @@ By integrating powerful **multi-modal AI** with a clean, responsive frontend, th
 **Frontend:** HTML, Tailwind CSS  
 **Models:** LLaMA 11B & 90B (via Groq API)  
 **Tools:** Uvicorn, Virtualenv  
-**Image Handling:** Pillow (PIL), OpenCV
+**Image Handling:** OpenCV
 
 ---
 
@@ -53,9 +53,9 @@ ai-medical-chatbot-multimodal-groq-llama/
 
 ## 🔐 API Keys Required
 
-This project uses *Groq’s LLaMA API* for multimodal image and text processing.
+This project uses **Groq’s LLaMA API** for multimodal image and text processing.
 
-In *main.py* or *app.py*, insert your key:
+In **main.py** or **app.py**, insert your key:
 
 python
 GROQ_API_KEY = "YOUR_GROQ_API_KEY"
@@ -66,32 +66,32 @@ GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
 ## ⚙ Installation & Setup
 
-1. *Clone the Repository*
+1. **Clone the Repository**
     ```bash
     git clone https://github.com/Kushal0006/ai-medical-chatbot.git
     cd ai-medical-chatbot
     ```
     
-2. *Create and Activate a Virtual Environment*
+2. **Create and Activate a Virtual Environment**
    ```bash
    python -m venv .venv
    .venv\Scripts\activate
    ```
 
-3. *Install Dependencies*
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
    
-5. *Add Your API Key* : Insert your Groq API key in the appropriate file (main.py or use .env).
+5. **Add Your API Key** : Insert your Groq API key in the appropriate file (main.py or use .env).
    
    
-7. *Run the Application*
+7. **Run the Application**
    ```bash
    uvicorn main:app --reload
    ```
    
-9. *Open in Your Browser*
+9. **Open in Your Browser**
    ```bash
    Go to: http://127.0.0.1:8000
    ```
@@ -115,10 +115,10 @@ Feel free to fork, improve, and contribute — just give credit where due!
 ---
 
 ## 🌐 Citation
-Published in the *International Journal of Research Publication and Reviews (IJRPR)*
+Published in the **International Journal of Research Publication and Reviews (IJRPR)**
 
-*📅 May 2025, Volume 6, Issue 5, Pages 1259–1263*
-*ISSN: 2582-7421*
+**📅 May 2025, Volume 6, Issue 5, Pages 1259–1263**,
+**ISSN: 2582-7421**
 
 ---
 
