@@ -55,10 +55,7 @@ ai-medical-chatbot-multimodal-groq-llama/
 
 This project uses **Groq’s LLaMA API** for multimodal image and text processing.
 
-In **main.py** or **app.py**, insert your key:
-
-python
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+🔗 Get your key here: https://console.groq.com/keys
 
 ### ⚠ Important: Never upload your actual API key to GitHub. Use a .env file or environment variables for security.
 
